@@ -1,9 +1,15 @@
 {
   "name": "d3_v4_data_visualization",
+  "babel": {
+    "presets": [
+      "es2017"
+    ]
+  },
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/main.js",
   "scripts": {
+    "start": "webpack-dev-server --inline",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
